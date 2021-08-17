@@ -1,0 +1,22 @@
+
+
+<div class="mt-5">
+  <h2>Google Login</h2>
+      <button class="google-login" #loginRef>
+        Add Google Account
+      </button>
+</div>
+
+<div class="mt-5">
+      <button class="logout" (click)="logout()">Delete Google Account</button>
+</div>
+
+<div class="mt-5">
+      <button class="logout" (click)="getPicture()">Picture</button>
+</div>
+
+<img *ngIf="picture" src="{{picture}}" alt="" class="profile-pic">
+
+
+
+

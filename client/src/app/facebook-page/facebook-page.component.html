@@ -1,0 +1,21 @@
+
+<div class="mt-5">
+  <h2>Facebook Login</h2>
+      <button class="loginBtn loginBtn--facebook facebook-login" (click)="login()">
+        Add Facebook Account
+      </button>
+</div>
+
+<div class="mt-5">
+  <button class="logout" (click)="logout(); clearePic()">Delete Facebook Account</button>
+</div>
+
+<div class="mt-5">
+  <button class="logout" (click)="loadPicture()">Load picture</button>
+</div>
+
+<div class="mt-5">
+  <button class="logout" (click)="getPicture()">Picture</button>
+</div>
+
+<img *ngIf="picture" src="{{picture}}" alt="" class="profile-pic">

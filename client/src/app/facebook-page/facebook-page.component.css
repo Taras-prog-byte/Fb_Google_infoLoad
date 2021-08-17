@@ -1,0 +1,21 @@
+.facebook-login{
+  background-color: #1f4b99;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.logout{
+  margin-top: 10px;
+  background-color:#90a4ae;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+.profile-pic{
+  width: 500px;
+  height: 500px;
+}
